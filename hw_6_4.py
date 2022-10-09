@@ -9,6 +9,7 @@
 '''
 
 
+
 def second_entry(strings_list, element):
     try:
         position = len(strings_list[:strings_list.index(element)]) + 1 + strings_list[strings_list.index(element) + 1::].index(element)

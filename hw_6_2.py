@@ -3,6 +3,7 @@
 '''
 
 
+
 def odd_sum(numbers_list):
     return sum([number for number in numbers_list[::2]])
 
